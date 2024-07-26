@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mamonasassassina.usuario"
+             BackgroundColor="#F8D7DA"
+             Title="usuario">
+
+    <StackLayout Padding="30"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center">
+
+        <!-- Placeholder for image (if needed) -->
+        <!-- <Image Source="your_image_source.png" /> -->
+
+        <Entry Placeholder="usuário" 
+               x:Name="UsernameEntry"
+               BackgroundColor="White"
+               Margin="0,20,0,0"
+               HorizontalOptions="FillAndExpand" />
+
+        <Entry Placeholder="usuário:"
+               x:Name="UsernameLabel"
+               BackgroundColor="White"
+               Margin="0,20,0,0"
+               IsEnabled="False"
+               HorizontalOptions="FillAndExpand" />
+
+        <Entry Placeholder="Senha:"
+               x:Name="PasswordEntry"
+               IsPassword="True"
+               BackgroundColor="White"
+               Margin="0,20,0,0"
+               HorizontalOptions="FillAndExpand" />
+
+        <Button Text="Criar login"
+                BackgroundColor="#FFC107"
+                TextColor="Black"
+                Margin="0,20,0,0"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnCreateLoginClicked" />
+
+        <Button Text="Voltar"
+                BackgroundColor="Transparent"
+                TextColor="#007BFF"
+                Margin="0,20,0,0"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnBackClicked" />
+
+    </StackLayout>
+
+</ContentPage>

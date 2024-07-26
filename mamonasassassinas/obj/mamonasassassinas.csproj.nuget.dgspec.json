@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\mamonasassassina-1\\mamonasassassinas\\mamonasassassinas.csproj": {}
+    "C:\\Users\\Aluno\\mamonasassassina\\mamonasassassinas\\mamonasassassinas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\mamonasassassina-1\\mamonasassassinas\\mamonasassassinas.csproj": {
+    "C:\\Users\\Aluno\\mamonasassassina\\mamonasassassinas\\mamonasassassinas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\mamonasassassina-1\\mamonasassassinas\\mamonasassassinas.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\mamonasassassina\\mamonasassassinas\\mamonasassassinas.csproj",
         "projectName": "mamonasassassinas",
-        "projectPath": "C:\\Users\\Aluno\\mamonasassassina-1\\mamonasassassinas\\mamonasassassinas.csproj",
+        "projectPath": "C:\\Users\\Aluno\\mamonasassassina\\mamonasassassinas\\mamonasassassinas.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\mamonasassassina-1\\mamonasassassinas\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\mamonasassassina\\mamonasassassinas\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
