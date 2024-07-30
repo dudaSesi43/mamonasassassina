@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mamonasassassina.usuario">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FADBD8" Padding="20">
+            <Label Text="Corte" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Start" 
+                   FontSize="Medium"/>
+                   
+            <StackLayout VerticalOptions="CenterAndExpand" Spacing="10">
+                <Label Text="Maria 50 peças por hora" FontSize="Medium"/>
+                <Label Text="Diana 70 peças por hora" FontSize="Medium"/>
+                <Label Text="Dniel 60 peças por hora" FontSize="Medium"/>
+                <Label Text="Mariana 70 peças por hora" FontSize="Medium"/>
+            </StackLayout>
+            
+            <Entry Placeholder="" 
+                   HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="End" 
+                   BackgroundColor="White"/>
+                   
+            <Button Text="Voltar" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
