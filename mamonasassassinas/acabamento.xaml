@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="mamonasassassinas.usuario">
+             x:Class="mamonasassassinas.usuario"
 
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FADBD8" Padding="20">
-            <Label Text="Costura" 
+            <Label Text="Acabamento" 
                    HorizontalOptions="Center" 
                    VerticalOptions="Start" 
                    FontSize="Medium"/>
                    
             <StackLayout VerticalOptions="CenterAndExpand" Spacing="10">
-                <Label Text="Renan 58 peças por hora" FontSize="Medium"/>
-                <Label Text="Mria 80 peças por hora" FontSize="Medium"/>
-                <Label Text="Flávio 76 peças por hora" FontSize="Medium"/>
-                <Label Text="Pedro 80 peças por hora" FontSize="Medium"/>
+                <Label Text="Fernanda 50 peças por hora" FontSize="Medium"/>
+                <Label Text="Maria 60 peças por hora" FontSize="Medium"/>
+                <Label Text="Fernando 45 peças por hora" FontSize="Medium"/>
+                <Label Text="Gabriel 55 peças por hora" FontSize="Medium"/>
             </StackLayout>
             
             <StackLayout Orientation="Horizontal" VerticalOptions="End" Spacing="5">
                 <Entry Placeholder="" 
                        HorizontalOptions="FillAndExpand" 
                        BackgroundColor="White"/>
-                <BoxView WidthRequest="50" 
-                         HeightRequest="50" 
-                         BackgroundColor="White"/>
+                <Label Text="=" 
+                       VerticalOptions="Center" 
+                       FontSize="Medium"/>
             </StackLayout>
                    
             <Button Text="Voltar" 
