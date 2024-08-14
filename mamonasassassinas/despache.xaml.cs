@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace mamonasassassinas
 {
-    public partial class Desopache : ContantPage
+    public partial class despache : ContentPage
     {
-        public Despache()
+        public despache()
         {
             InitializeComponent();
 

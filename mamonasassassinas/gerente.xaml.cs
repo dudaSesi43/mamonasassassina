@@ -1,10 +1,10 @@
 using Microsoft.Maui.Controls;
 
-namespace YourNamespace
+namespace mamonasassassinas
 {
-    public partial class MainPage : ContentPage
+    public partial class gerente : ContentPage
     {
-        public MainPage()
+        public gerente()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="YourNamespace.MainPage">
+             x:Class="mamonasassassinas.MainPage">
 
     <ContentPage.Content>
         <StackLayout BackgroundColor="#F5CCCC" Padding="20">
@@ -14,22 +14,28 @@
             </StackLayout>
 
             <StackLayout Spacing="10" Padding="0,20,0,0">
-                <Button Text="Despache" 
+                <Button Text="Despache"
+                        Clicked="Despache" 
                         BackgroundColor="White" 
                         TextColor="Black"/>
                 <Button Text="Usuário" 
+                        Clicked="Usuario"
                         BackgroundColor="White" 
                         TextColor="Black"/>
                 <Button Text="Corte" 
+                        Clicked="Corte"
                         BackgroundColor="White" 
                         TextColor="Black"/>
                 <Button Text="Acabamento" 
+                        Clicked="Acabamento"
                         BackgroundColor="White" 
                         TextColor="Black"/>
                 <Button Text="Costura" 
+                        Clicked="Costura"
                         BackgroundColor="White" 
                         TextColor="Black"/>
                 <Button Text="Gerente" 
+                        Clicked="Gerente"
                         BackgroundColor="White" 
                         TextColor="Black"/>
             </StackLayout>

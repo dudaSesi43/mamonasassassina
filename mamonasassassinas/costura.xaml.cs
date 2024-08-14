@@ -1,11 +1,12 @@
 using System;
+using mamonasassassinas;
 using Microsoft.Maui.Controls;
 
-namespace YourNamespace
+namespace mamonasassassinas
 {
-    public partial class MainPage : ContentPage
+    public partial class costura : ContentPage
     {
-        public MainPage()
+        public costura()
         {
             InitializeComponent();
         }
