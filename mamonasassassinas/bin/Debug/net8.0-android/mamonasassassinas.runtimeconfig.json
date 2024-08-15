@@ -25,7 +25,9 @@
       "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "System.Text.Json.JsonSerializer.IsReflectionEnabledByDefault": true,
       "Xamarin.Android.Net.UseNegotiateAuthentication": false,
-      "Switch.System.Reflection.ForceInterpretedInvoke": true
+      "Switch.System.Reflection.ForceInterpretedInvoke": true,
+      "Microsoft.Extensions.DependencyInjection.DisableDynamicEngine": true,
+      "System.Diagnostics.Metrics.Meter.IsSupported": false
     }
   }
 }

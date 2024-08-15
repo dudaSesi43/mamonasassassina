@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace mamonasassassinas
 {
-    public partial class LoginPage : ContentPage
+    public partial class usuarioPage : ContentPage
     {
-        public LoginPage()
+        public usuarioPage()
         {
             InitializeComponent();
         }

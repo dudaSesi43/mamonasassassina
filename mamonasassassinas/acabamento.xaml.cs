@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace mamonasassassinas
 {
-    public partial class acabamento : ContentPage
+    public partial class acabamentoPage : ContentPage
     {
-        public acabamento()
+        public acabamentoPage()
         {
             InitializeComponent();
         }

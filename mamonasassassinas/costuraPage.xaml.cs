@@ -1,13 +1,14 @@
 using System;
+using mamonasassassinas;
 using Microsoft.Maui.Controls;
 
 namespace mamonasassassinas
 {
-    public partial class Corte : ContentPage
+    public partial class costuraPage : ContentPage
     {
-        public Corte()
+        public costuraPage()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         // Event handler for the button click event

@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace mamonasassassinas
 {
-    public partial class gerente : ContentPage
+    public partial class gerentePage : ContentPage
     {
-        public gerente()
+        public gerentePage()
         {
             InitializeComponent();
         }
