@@ -37,7 +37,8 @@
                 x:Name="BackButton"
                 BackgroundColor="LightGray"
                 Margin="0,20,0,0"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="OnVoltarButtonClicked"/>
 
     </StackLayout>
 

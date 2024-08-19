@@ -9,10 +9,9 @@ namespace mamonasassassinas
             InitializeComponent();
         }
 
-        private void OnVoltarButtonClicked(object sender, EventArgs e)
+      private void OnVoltarButtonClicked(object sender, EventArgs args)
         {
-            // Lógica para o botão "Voltar"
-            // Navegar para outra página ou fechar a atual, conforme necessário
+            Application.Current.MainPage = new MainPage();
         }
     }
 }

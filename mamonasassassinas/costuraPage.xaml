@@ -28,7 +28,8 @@
                    
             <Button Text="Voltar" 
                     HorizontalOptions="Center" 
-                    VerticalOptions="End"/>
+                    VerticalOptions="End"
+                    Clicked="OnVoltarButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

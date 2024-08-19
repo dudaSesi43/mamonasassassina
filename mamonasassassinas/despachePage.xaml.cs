@@ -9,14 +9,12 @@ namespace mamonasassassinas
             InitializeComponent();
 
             // Event handler for the BackButton click event
-            BackButton.Clicked += OnBackButtonClicked;
+           
         }
 
-        private void OnBackButtonClicked(object sender, EventArgs e)
+         private void OnVoltarButtonClicked(object sender, EventArgs args)
         {
-            // Handle the back button click event here
-            // For example, navigate to the previous page or perform some action
-            Navigation.PopAsync();
+            Application.Current.MainPage = new MainPage();
         }
     }
-}
+    }

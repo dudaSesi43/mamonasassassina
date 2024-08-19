@@ -19,7 +19,9 @@ namespace mamonasassassinas
         private void OnBackClicked(object sender, EventArgs e)
         {
             // Implementar lógica para voltar
-            Navigation.PopAsync();
+        } private void OnVoltarButtonClicked(object sender, EventArgs args)
+        {
+            Application.Current.MainPage = new MainPage();
         }
     }
 }

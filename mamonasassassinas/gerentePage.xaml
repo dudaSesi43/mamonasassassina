@@ -38,6 +38,7 @@
         <Button Text="Voltar" 
                 Margin="0,30,0,0"
                 HorizontalOptions="Center" 
+                
                 VerticalOptions="End" 
                 Clicked="OnVoltarButtonClicked" />
     </StackLayout>
