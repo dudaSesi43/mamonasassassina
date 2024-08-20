@@ -1,5 +1,5 @@
-namespace StockInspection.Modelos;
-public class mamonasassassinas
+namespace mamonasassassinas.Modelos;
+public class ModeloPai
 {
 string nome;
 interface id;
@@ -11,11 +11,13 @@ publicstring GetNome()
 {
     return nome;
 }
-public void SetID(int id)
+public void Setid(int id)
 {
     this.Id = id;
-    public int GetId()
+}
+    public int Getid()
     {
         return id;
     }
+
 }
