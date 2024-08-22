@@ -28,15 +28,15 @@ public class Usuario : ModeloPai
     {
         return Senha;
     }
-    public void SetSenha(string Usuario)
+    public void SetSenha(int Senha)
     {
         this.Senha = Senha;
     }
-    public string GetSenha()
+    public int GetSenha()
     {
         return Senha;
 }
- public void SetCriarlogin(string NomeDespache)
+ public void SetCriarlogin(string CriarLogin)
     {
      this.Senha = SetCriarlogin;
     }
@@ -44,7 +44,7 @@ public class Usuario : ModeloPai
     {
         return Criarlogin;
     }
-    public void SetCriarlogin(string Usuario)
+    public void SetCriarlogin(string CriarLogin)
     {
         this.Criarlogin = Criarlogin;
     }
