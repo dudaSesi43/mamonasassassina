@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mamonasassassinas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+42abc3c60bab12a1588ec54c9a0ba8087256e2ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7b23e4439af81ac6dce8e11eee65f38d7d9f9df2")]
 [assembly: System.Reflection.AssemblyProductAttribute("mamonasassassinas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mamonasassassinas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
