@@ -16,6 +16,12 @@ build_property.ProjectDir = C:\Users\Aluno\mamonasassassina\mamonasassassinas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Acabamento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Acabamento.xaml
+build_metadata.AdditionalFiles.TargetPath = Acabamento.xaml
+build_metadata.AdditionalFiles.RelativePath = Acabamento.xaml
+
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/acabamentoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.acabamentoPage.xaml
@@ -34,11 +40,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.AppShell
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Corte.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Corte.xaml
+build_metadata.AdditionalFiles.TargetPath = Corte.xaml
+build_metadata.AdditionalFiles.RelativePath = Corte.xaml
+
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/cortePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.cortePage.xaml
 build_metadata.AdditionalFiles.TargetPath = cortePage.xaml
 build_metadata.AdditionalFiles.RelativePath = cortePage.xaml
+
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Costura.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Costura.xaml
+build_metadata.AdditionalFiles.TargetPath = Costura.xaml
+build_metadata.AdditionalFiles.RelativePath = Costura.xaml
 
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/costuraPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -46,17 +64,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.costuraP
 build_metadata.AdditionalFiles.TargetPath = costuraPage.xaml
 build_metadata.AdditionalFiles.RelativePath = costuraPage.xaml
 
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Despache.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Despache.xaml
+build_metadata.AdditionalFiles.TargetPath = Despache.xaml
+build_metadata.AdditionalFiles.RelativePath = Despache.xaml
+
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/despachePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.despachePage.xaml
 build_metadata.AdditionalFiles.TargetPath = despachePage.xaml
 build_metadata.AdditionalFiles.RelativePath = despachePage.xaml
 
-[C:/Users/Aluno/mamonasassassina/mamonasassassinas/gerentePage.xaml]
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/gerente.Page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.gerentePage.xaml
-build_metadata.AdditionalFiles.TargetPath = gerentePage.xaml
-build_metadata.AdditionalFiles.RelativePath = gerentePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.gerente.Page.xaml
+build_metadata.AdditionalFiles.TargetPath = gerente.Page.xaml
+build_metadata.AdditionalFiles.RelativePath = gerente.Page.xaml
+
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Gerente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Gerente.xaml
+build_metadata.AdditionalFiles.TargetPath = Gerente.xaml
+build_metadata.AdditionalFiles.RelativePath = Gerente.xaml
 
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -75,6 +105,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Aluno/mamonasassassina/mamonasassassinas/Usuario.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mamonasassassinas.Usuario.xaml
+build_metadata.AdditionalFiles.TargetPath = Usuario.xaml
+build_metadata.AdditionalFiles.RelativePath = Usuario.xaml
 
 [C:/Users/Aluno/mamonasassassina/mamonasassassinas/usuarioPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

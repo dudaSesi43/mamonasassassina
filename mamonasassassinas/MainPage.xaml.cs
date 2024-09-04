@@ -11,28 +11,28 @@ namespace mamonasassassinas
 
         private void Despache(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new despachePage();
+            Application.Current.MainPage = new Despache();
         }
 
         private void Usuario(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new usuarioPage();
+            Application.Current.MainPage = new Usuario();
         }
         private void Corte(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new cortePage();
+            Application.Current.MainPage = new Corte();
         }
         private void Acabamento(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new acabamentoPage();
+            Application.Current.MainPage = new Acabamento();
         }
         private void Costura(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new costuraPage();
+            Application.Current.MainPage = new Costura();
         }
         private void Gerente(object sender, EventArgs args)
         {
-            Application.Current.MainPage = new gerentePage();
+            Application.Current.MainPage = new Gerente();
         }
     }
 }

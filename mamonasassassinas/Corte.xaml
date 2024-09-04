@@ -1,0 +1,44 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mamonasassassinas.Corte"
+             BackgroundColor="LightPink">
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Título -->
+        <Label Grid.Row="0" Grid.Column="0" Text="Corte" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" />
+
+        <!-- Botão de Adicionar -->
+        <ImageButton Grid.Row="0" Grid.Column="1" Source="add_icon.png" WidthRequest="30" HeightRequest="30" BackgroundColor="Transparent" BorderColor="Transparent"/>
+
+        <!-- Campo de busca -->
+        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="0,10,0,0">
+            <Image Source="search_icon.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+            <Entry Placeholder="Search" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+        <!-- Outros campos -->
+        <Entry Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Margin="0,10,0,0"/>
+        <Entry Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Margin="0,10,0,0"/>
+        <Entry Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White" Margin="0,10,0,0"/>
+
+        <!-- Botões Voltar e Tela Inicial -->
+        <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Margin="0,10,0,0">
+            <Button Text="Voltar" WidthRequest="100" Margin="0,0,10,0"/>
+            <Button Text="Tela inicial" WidthRequest="100"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
